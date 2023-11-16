@@ -24,10 +24,29 @@ export default function Home() {
   };
 
   return (
-    <main className="bg-gray-100 min-h-screen">
-      <div className="max-w-5xl mx-auto py-16">
-        <form className="py-4 space-y-4" onSubmit={handleSubmit}>
-          <div className="flex items-center justify-center">
+    <main className="bg-white min-h-screen">
+      <div className="flex pt-40 flex-row items-center justify-center gap-6">
+        <Image src="/image 1.png" alt="me" width="64" height="64" />
+        <div className="text-left py-20 flex flex-col">
+          <h1 className="font-bold text-slate-800 text-6xl">
+            FORM SURVEY PENDATAAN
+          </h1>
+          <p className="font-bold text-[#0099CB] text-2xl">
+            SDGs Desa Sidorejo, Kec. Sekampung Udik, Kab. Lampung Timur
+          </p>
+        </div>
+      </div>
+      <div className="mx-auto">
+        <div className="flex mx-4 md:mx-8">
+          <div className="bg-[#FD6633] flex-1 py-2"></div>
+          <div className="bg-[#84D25E] flex-1 py-2"></div>
+          <div className="bg-[#FECD01] flex-1 py-2"></div>
+        </div>
+        <form
+          className="py-12 space-y-4 bg-[#005599] mx-4 md:mx-8"
+          onSubmit={handleSubmit}
+        >
+          <div className="flex flex-col items-center justify-center">
             <label htmlFor="name" className="sr-only">
               Name
             </label>
@@ -37,7 +56,7 @@ export default function Home() {
               type="text"
               name="name"
               id="name"
-              className="p-3 shadow-md focus:ring-indigo-500  focus:border-indigo-500 block w-64 sm:text-md border-gray-300 rounded-md text-black"
+              className="p-3 bg-slate-200 focus:ring-indigo-500  focus:border-indigo-500 block w-3/6 sm:text-md rounded-md text-black"
               placeholder="Your Name"
             ></input>
           </div>
@@ -51,7 +70,7 @@ export default function Home() {
               type="email"
               name="email"
               id="email"
-              className="p-3 shadow-md focus:ring-indigo-500  focus:border-indigo-500 block w-64 sm:text-md border-gray-300 rounded-md text-black"
+              className="p-3 bg-slate-200 focus:ring-indigo-500  focus:border-indigo-500 block w-3/6 sm:text-md border-gray-300 rounded-md text-black"
               placeholder="Your Email"
             ></input>
           </div>
@@ -65,7 +84,7 @@ export default function Home() {
               type="tel"
               name="phone"
               id="phone"
-              className="p-3 shadow-md focus:ring-indigo-500  focus:border-indigo-500 block w-64 sm:text-md border-gray-300 rounded-md text-black"
+              className="p-3 bg-slate-200 focus:ring-indigo-500  focus:border-indigo-500 block w-3/6 sm:text-md border-gray-300 rounded-md text-black"
               placeholder="Your Phone"
             ></input>
           </div>
@@ -78,7 +97,7 @@ export default function Home() {
               onChange={(e) => setMessage(e.target.value)}
               name="message"
               id="message"
-              className="p-3 shadow-md focus:ring-indigo-500  focus:border-indigo-500 block w-64 sm:text-md border-gray-300 rounded-md text-black"
+              className="p-3 bg-slate-200 focus:ring-indigo-500  focus:border-indigo-500 block w-3/6 sm:text-md border-gray-300 rounded-md text-black"
               placeholder="your message"
             ></textarea>
           </div>
