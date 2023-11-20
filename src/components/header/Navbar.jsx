@@ -10,7 +10,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const menu = [
     { name: "Formulir SDGs", url: "/" },
-    { name: "Profil Desa", url: "/" },
+    { name: "Profil Desa", url: "http://www.sidorejo-lampungtimur.desa.id/" },
   ];
   const login = [{ name: "Masuk sebagai Admin", url: "/" }];
 
@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#" className="flex items-center justify-center gap-4">
               <Image src="/lamtim.svg" alt="logo-web" width="24" height="24" />
-              <h1 className="text-2xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent font-bold">
+              <h1 className="text-2xl text-slate-800 font-bold">
                 DESA SIDOREJO
               </h1>
             </a>
@@ -51,7 +51,9 @@ const Navbar = () => {
                   key={index}
                   className="text-[#0099CB] font-medium text-base"
                 >
-                  <Link href={url}>{name}</Link>
+                  <Link href={url} target="_blank">
+                    {name}
+                  </Link>
                 </li>
               ))}
               {login.map(({ name, url }, index) => (
