@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import Head from "next/head";
+import ColumnForm from "@my/components/ColumnForm";
 
 export default function Home() {
   const scriptURL =
@@ -60,42 +60,42 @@ export default function Home() {
           onSubmit={handleSubmit}
           className="py-12 space-y-4 bg-[#005599] mx-4 md:mx-8"
         >
-          <div className="flex flex-col items-center justify-center">
-            <input
-              type="text"
-              name="your-name"
-              placeholder="Name"
-              required
-              className="p-3 bg-slate-200 focus:ring-indigo-500  focus:border-indigo-500 block w-3/6 sm:text-md rounded-md text-black"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <input
-              type="text"
-              name="your-number"
-              placeholder="Number"
-              required
-              className="p-3 bg-slate-200 focus:ring-indigo-500  focus:border-indigo-500 block w-3/6 sm:text-md rounded-md text-black"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <input
-              type="email"
-              name="your-email"
-              placeholder="Email"
-              required
-              className="p-3 bg-slate-200 focus:ring-indigo-500  focus:border-indigo-500 block w-3/6 sm:text-md rounded-md text-black"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <textarea
-              name="message"
-              rows="7"
-              placeholder="Your Message"
-              required
-              className="p-3 bg-slate-200 focus:ring-indigo-500  focus:border-indigo-500 block w-3/6 sm:text-md rounded-md text-black"
-            ></textarea>
-          </div>
+          <ColumnForm
+            label={"Nomor Kepala Keluarga"}
+            type={"text"}
+            name={"Nomor Kartu Keluarga"}
+            placeholder={"Masukkan Nomor Kartu Keluarga"}
+          />
+          <ColumnForm
+            label={"Nama Kepala Keluarga"}
+            type={"text"}
+            name={"Nama Kepala Keluarga"}
+            placeholder={"Masukkan Nama Kepala Keluarga"}
+          />
+          <ColumnForm
+            label={"Nama Kepala Keluarga"}
+            type={"text"}
+            name={"Nomor Kartu Keluarga"}
+            placeholder={"Masukkan Nomor Kartu Keluarga"}
+          />
+          <ColumnForm
+            label={"Nama Kepala Keluarga"}
+            type={"text"}
+            name={"Nomor Kartu Keluarga"}
+            placeholder={"Masukkan Nomor Kartu Keluarga"}
+          />
+          <ColumnForm
+            label={"Nama Kepala Keluarga"}
+            type={"text"}
+            name={"Nomor Kartu Keluarga"}
+            placeholder={"Masukkan Nomor Kartu Keluarga"}
+          />
+          <ColumnForm
+            label={"Nama Kepala Keluarga"}
+            type={"text"}
+            name={"Nomor Kartu Keluarga"}
+            placeholder={"Masukkan Nomor Kartu Keluarga"}
+          />
 
           <div className="flex flex-col items-center justify-center">
             <input
