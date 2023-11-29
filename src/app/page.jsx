@@ -213,6 +213,51 @@ export default function Home() {
               "Kemasan",
             ]}
           />
+          <MultiOption
+            label="P414 - Fasilitas buang air besar"
+            options={["Jamban Sendiri", "Jamban Bersama"]}
+            values={["Jamban Sendiri", "Jamban Bersama"]}
+          />
+          <MultiOption
+            label="P415 - Sumber air minum terbanyak dari"
+            options={[
+              "Ledeng",
+              "Perpipaan Berbayar",
+              "Air isi ulang",
+              "Kemasan",
+            ]}
+            values={[
+              "Ledeng",
+              "Perpipaan Berbayar",
+              "Air isi ulang",
+              "Kemasan",
+            ]}
+          />
+          <MultiOption
+            label="P416 - Tempat pembuangan limbah cair"
+            options={["Tangki", "Instalasi pengelolaan limbah"]}
+            values={["Tangki", "Instalasi pengelolaan limbah"]}
+          />
+          <MultiOption
+            label="P417 - Rumah berada di bawah SUTET/SUT/SUTTAS"
+            options={["Ya", "Tidak"]}
+            values={["Ya", "Tidak"]}
+          />
+          <MultiOption
+            label="P418 - Rumah di bantaran sungai"
+            options={["Ya", "Tidak"]}
+            values={["Ya", "Tidak"]}
+          />
+          <MultiOption
+            label="P419 - Rumah di lereng bukit/gunung"
+            options={["Ya", "Tidak"]}
+            values={["Ya", "Tidak"]}
+          />
+          <MultiOption
+            label="P420 - Secara keseluruhan kondisi rumah"
+            options={["Bersih", "Kumuh"]}
+            values={["Bersih", "Kumuh"]}
+          />
 
           <div className="flex flex-col items-center justify-center">
             <input
