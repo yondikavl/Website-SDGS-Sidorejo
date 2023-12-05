@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Cardsdgs from "@my/components/Cardsdgs";
 
 export const metadata = {
   title: "Tentang | SDGs Desa Sidorejo",
@@ -7,8 +8,8 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="">
-      <section className="bg-white px-4 md:px-12 py-20 md:h-screen flex items-center">
+    <div className="bg-white px-4 md:px-20 py-20">
+      <section className="bg-white flex items-center">
         <article class="text-black flex flex-col items-center">
           <Image src="/Logo-SDGs-Desa.png" alt="me" width="250" height="250" />
           <h1 className="font-bold text-2xl text-center my-4">
@@ -25,6 +26,11 @@ const page = () => {
             prioritas penggunaan Dana Desa Tahun 2021.
           </p>
         </article>
+      </section>
+      <section className="grid md:grid-cols-4 lg:grid-cols-6 gap-4 py-8">
+        {Array.from({ length: 18 }, (_, index) => (
+          <Cardsdgs key={index} image={`/sdgs/${index + 1}.jpg`} />
+        ))}
       </section>
     </div>
   );
