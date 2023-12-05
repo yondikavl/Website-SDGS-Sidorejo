@@ -42,7 +42,7 @@ const Submit = () => {
       action=""
       name="contact-form"
       onSubmit={handleSubmit}
-      className="py-12 space-y-4 bg-[#005599] mx-4 md:mx-8 px-4 md:px-96"
+      className="py-12 space-y-4 bg-gradient-to-b from-blue-800 to-slate-900 px-4 md:px-96"
     >
       <ColumnForm
         label="Nomor Kepala Keluarga"

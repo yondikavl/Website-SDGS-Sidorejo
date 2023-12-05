@@ -18,7 +18,7 @@ const page = () => {
         </div>
       </div>
       <div className="mx-auto">
-        <div className="flex mx-4 md:mx-8">
+        <div className="flex">
           <div className="bg-[#FD6633] flex-1 py-2"></div>
           <div className="bg-[#84D25E] flex-1 py-2"></div>
           <div className="bg-[#FECD01] flex-1 py-2"></div>
