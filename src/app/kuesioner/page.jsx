@@ -7,7 +7,7 @@ export const metadata = {
 const page = () => {
   return (
     <main className="bg-white min-h-screen">
-      <div className="flex pt-20 pb-12 md:pt-20 md:pb-0 flex-col md:flex-row items-center justify-center gap-6">
+      <div className="flex pt-28 pb-12 md:pt-20 md:pb-0 flex-col md:flex-row items-center justify-center gap-6">
         <div className="text-left px-4 md:py-20 flex flex-col">
           <h1 className="font-bold text-slate-800 text-2xl md:text-6xl">
             FORM SURVEY PENDATAAN
