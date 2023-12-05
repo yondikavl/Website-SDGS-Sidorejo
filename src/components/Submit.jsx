@@ -24,13 +24,13 @@ const Submit = () => {
       });
 
       if (response.ok) {
-        alert("Thank you! Your form is submitted successfully");
+        alert("Terima Kasih! Data berhasil dimasukkan.");
         form.reset();
       } else {
-        alert("Error submitting the form. Please try again.");
+        alert("Data gagal dimasukkan! coba lagi.");
       }
     } catch (error) {
-      console.error("Error!", error.message);
+      console.error("Eror!", error.message);
     } finally {
       setSubmitting(false);
     }
