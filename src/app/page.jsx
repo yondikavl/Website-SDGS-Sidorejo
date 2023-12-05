@@ -9,7 +9,7 @@ export default function Home() {
       <section className="pt-8">
         <Jumbotron />
       </section>
-      <section className="bg-white p-12">
+      <section className="bg-white py-12 px-4 md:p-12">
         <article class="text-black flex flex-col items-center">
           <Image src="/Logo-SDGs-Desa.png" alt="me" width="250" height="250" />
           <h1 className="font-bold text-2xl text-center my-4">
