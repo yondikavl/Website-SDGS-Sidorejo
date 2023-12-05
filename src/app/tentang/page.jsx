@@ -27,7 +27,7 @@ const page = () => {
           </p>
         </article>
       </section>
-      <section className="grid md:grid-cols-4 lg:grid-cols-6 py-8">
+      <section className="flex flex-wrap md:gap-4 justify-between py-8">
         {Array.from({ length: 18 }, (_, index) => (
           <Cardsdgs key={index} image={`/sdgs/${index + 1}.jpg`} />
         ))}
