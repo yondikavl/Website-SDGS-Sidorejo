@@ -11,8 +11,9 @@ const Jumbotron = () => {
             SDGs Desa Sidorejo, Lampung Timur
           </h1>
           <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-            Website pendataan Suistanable Development Goals Desa Sidorejo
-            Lampung Timur
+            Website pendataan{" "}
+            <span className="italic">Suistanable Development Goals</span> (SDGs)
+            Desa Sidorejo Lampung Timur
           </p>
           <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a

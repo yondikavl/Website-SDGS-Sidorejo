@@ -1,4 +1,4 @@
-import Submit from "@my/components/Submit";
+import Submit from "@my/components/Form/Submit";
 
 export const metadata = {
   title: "Pendataan | SDGs Desa Sidorejo",

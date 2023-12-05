@@ -2,9 +2,9 @@
 
 import React from "react";
 import { useState } from "react";
-import ColumnForm from "@my/components/ColumnForm";
-import MultiOption from "@my/components/MultiOption";
-import DisableState from "@my/components/DisableState";
+import ColumnForm from "@my/components/Form/ColumnForm";
+import MultiOption from "@my/components/Form/MultiOption";
+import DisableState from "@my/components/Form/DisableState";
 
 const Submit = () => {
   const scriptURL =

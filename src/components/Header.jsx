@@ -64,7 +64,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/tentang"
                   class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                 >
                   Tentang SDGs Desa
@@ -89,7 +89,7 @@ const Header = () => {
               <li>
                 <button
                   type="button"
-                  class="text-white bg-[#84D25E] hover:bg-[#6cb14a] w-full focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 mt-12 md:mt-0 text-center"
+                  class="text-white bg-[#84D25E] hover:bg-[#6cb14a] w-full focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-4 md:py-2 mt-12 md:mt-0 text-center"
                 >
                   Masuk
                 </button>
