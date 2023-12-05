@@ -17,7 +17,7 @@ const Jumbotron = () => {
           <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a
               href="/kuesioner"
-              class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg bg-[#FECD01] hover:bg-[#d1b43e] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+              class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg bg-[#FECD01] hover:bg-[#d1b43e] focus:ring-4 focus:ring-blue-300"
             >
               Isi Survey
               <svg
