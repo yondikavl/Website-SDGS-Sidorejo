@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="fixed w-full">
       {/* Top header */}
-      <TopHeader />
+      {/* <TopHeader /> */}
       {/* Main header (navbar) */}
       <Navbar />
     </div>

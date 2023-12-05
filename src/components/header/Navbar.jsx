@@ -9,7 +9,8 @@ import Link from "next/link";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const menu = [
-    { name: "Formulir SDGs", url: "/" },
+    { name: "Beranda", url: "/" },
+    { name: "Formulir SDGs", url: "/pendataan" },
     { name: "Profil Desa", url: "http://www.sidorejo-lampungtimur.desa.id/" },
   ];
   const login = [{ name: "Masuk sebagai Admin", url: "/" }];
@@ -51,9 +52,7 @@ const Navbar = () => {
                   key={index}
                   className="text-[#0099CB] font-medium text-base"
                 >
-                  <Link href={url} target="_blank">
-                    {name}
-                  </Link>
+                  <Link href={url}>{name}</Link>
                 </li>
               ))}
               {login.map(({ name, url }, index) => (
