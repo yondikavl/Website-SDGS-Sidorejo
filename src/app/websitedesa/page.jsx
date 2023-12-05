@@ -1,5 +1,9 @@
 import React from "react";
 
+export const metadata = {
+  title: "Beralih Website | SDGs Desa Sidorejo",
+};
+
 const page = () => {
   return (
     <div className="h-screen bg-[url('/sidorejo-jumbotron.jpg')] bg-no-repeat bg-cover flex items-center justify-center bg-sky-900 bg-blend-multiply">

@@ -6,7 +6,7 @@ import Footer from "@my/components/Footer";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Pendataan SDGs | Desa Sidorejo",
+  title: "SDGs Desa Sidorejo",
   description: "Desa Sidorejo, Kec. Lampung Timur",
 };
 
