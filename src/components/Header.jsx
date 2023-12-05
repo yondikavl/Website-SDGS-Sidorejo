@@ -1,13 +1,20 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  // Function to toggle the modal visibility
+  const toggleModal = () => {
+    const modal = document.getElementById("authentication-modal");
+    modal.classList.toggle("hidden");
   };
 
   return (
@@ -89,9 +96,10 @@ const Header = () => {
               <li>
                 <button
                   type="button"
+                  onClick={toggleModal}
                   class="text-white bg-[#84D25E] hover:bg-[#6cb14a] w-full focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-4 md:py-2 mt-12 md:mt-0 text-center"
                 >
-                  Masuk
+                  <a>Masuk</a>
                 </button>
               </li>
             </ul>
