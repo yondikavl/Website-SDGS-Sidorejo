@@ -19,7 +19,7 @@ const Header = () => {
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image src="/lamtim.svg" alt="logo-web" width="24" height="24" />
-            <span class="self-center text-2xl font-bold whitespace-nowrap text-black">
+            <span class="self-center text-base md:text-2xl font-bold whitespace-nowrap text-black">
               Desa Sidorejo
             </span>
           </a>
