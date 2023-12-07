@@ -99,7 +99,7 @@ const Header = () => {
                   onClick={toggleModal}
                   class="text-white bg-[#84D25E] hover:bg-[#6cb14a] w-full focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-4 md:py-2 mt-12 md:mt-0 text-center"
                 >
-                  <a>Masuk</a>
+                  <a href="login">Masuk</a>
                 </button>
               </li>
             </ul>
