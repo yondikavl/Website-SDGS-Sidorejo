@@ -16,7 +16,7 @@ const DisableState = ({ label, desa, type, name }) => {
         onChange={handleChange}
         name={name}
         type={type}
-        className="block w-full p-3 sm:text-md rounded-md bg-slate-200 focus:ring-indigo-500 focus:border-indigo-500 text-black"
+        className="block w-full p-3 rounded-md bg-slate-200 focus:ring-indigo-500 sm:text-md focus:border-indigo-500 text-black"
       />
     </label>
   );

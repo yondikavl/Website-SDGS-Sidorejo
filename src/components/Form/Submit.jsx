@@ -92,9 +92,9 @@ const Submit = () => {
         placeholder="Masukkan Alamat"
       />
       <ColumnForm
-        label="P103 - Telepon"
+        label="P103 - HP/telepon"
         type="number"
-        name="P103 - Telepon"
+        name="P103 - HP/telepon"
         placeholder="Masukkan Nomor Telepon"
       />
 
