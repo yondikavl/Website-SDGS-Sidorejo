@@ -60,10 +60,21 @@ const Submit = () => {
         label="Alamat Dusun"
         options={["Pilih Alamat Dusun", "Rejo Makmur"]}
         values={[null, "Rejo Makmur"]}
+        name="Alamat Dusun"
       />
-      <DisableState label="Desa" desa="Sidorejo" type="text" />
-      <DisableState label="Kecamatan" desa="Sekampung Udik" type="text" />
-      <DisableState label="Kabupaten" desa="Lampung Timur" type="text" />
+      <DisableState label="Desa" desa="Sidorejo" name="Desa" type="text" />
+      <DisableState
+        label="Kecamatan"
+        desa="Sekampung Udik"
+        name="Kecamatan"
+        type="text"
+      />
+      <DisableState
+        label="Kabupaten"
+        desa="Lampung Timur"
+        name="Kabupaten"
+        type="text"
+      />
 
       <h1 className="text-[#84D25E] font-bold pt-8 pb-4 text-xl">
         P1 - Deskripsi Enumerator
@@ -90,20 +101,33 @@ const Submit = () => {
       <h1 className="text-[#84D25E] font-bold pt-8 pb-4 text-xl">
         P2 - Deskripsi Lokasi
       </h1>
-      <DisableState label="P201 - Provinsi" desa="Lampung" type="text" />
+      <DisableState
+        label="P201 - Provinsi"
+        name="P201 - Provinsi"
+        desa="Lampung"
+        type="text"
+      />
       <DisableState
         label="P202 - Kabupaten/kota"
+        name="P202 - Kabupaten/kota"
         desa="Lampung Timur"
         type="text"
       />
       <DisableState
         label="P203 - Kecamatan"
+        name="P203 - Kecamatan"
         desa="Sekampung Udik"
         type="text"
       />
-      <DisableState label="P204 - Desa" desa="Sidorejo" type="text" />
+      <DisableState
+        label="P204 - Desa"
+        name="P204 - Desa"
+        desa="Sidorejo"
+        type="text"
+      />
       <MultiOption
         label="P205 - RT/RW"
+        name="P205 - RT/RW"
         options={["Pilih RT/RW", "RW 009/RW 002"]}
         values={[null, "RW 009/RW 002"]}
       />
@@ -129,11 +153,13 @@ const Submit = () => {
       </h1>
       <MultiOption
         label="P401 - Tempat tinggal yang ditempati"
+        name="P401 - Tempat tinggal yang ditempati"
         options={["Milik Sendiri", "Kontrak"]}
         values={["Milik Sendiri", "Kontrak"]}
       />
       <MultiOption
         label="P402 - Status lahan tempat tinggal yang ditempati"
+        name="P402 - Status lahan tempat tinggal yang ditempati"
         options={["Milik Sendiri", "Kontrak"]}
         values={["Milik Sendiri", "Kontrak"]}
       />
@@ -145,86 +171,103 @@ const Submit = () => {
       />
       <MultiOption
         label="P404 - Jenis lantai tempat tinggal terluas "
+        name="P404 - Jenis lantai tempat tinggal terluas "
         options={["Marmer", "Granit"]}
         values={["Marmer", "Granit"]}
       />
       <MultiOption
         label="P405 - Dinding sebagian besar rumah"
+        name="P405 - Dinding sebagian besar rumah"
         options={["Semen", "Beton", "Kayu berkualitas tinggi"]}
         values={["Semen", "Beton", "Kayu berkualitas tinggi"]}
       />
       <MultiOption
         label="P406 - Jendela"
+        name="P406 - Jendela"
         options={["Ada, Berfungsi", "Tidak ada"]}
         values={["Ada, Berfungsi", "Tidak ada"]}
       />
       <MultiOption
         label="P407 - Atap"
+        name="P407 - Atap"
         options={["Genteng", "Seng", "Asbes"]}
         values={["Genteng", "Seng", "Asbes"]}
       />
       <MultiOption
         label="P408 - Penerangan rumah"
+        name="P408 - Penerangan rumah"
         options={["Listrik PLN", "Lilin"]}
         values={["Listrik PLN", "Lilin"]}
       />
       <MultiOption
         label="P409 - Energi untuk memasak"
+        name="P409 - Energi untuk memasak"
         options={["Gas kota", "LPG", "Biogas"]}
         values={["Gas kota", "LPG", "Biogas"]}
       />
       <MultiOption
         label="P410 - Jika menggunakan kayu bakar untuk memasak, sumber kayu bakar"
+        name="P410 - Jika menggunakan kayu bakar untuk memasak, sumber kayu bakar"
         options={["Pembelian", "Mencari"]}
         values={["Pembelian", "Mencari"]}
       />
       <MultiOption
         label="P411 - Tempat pembuangan sampah"
+        name="P411 - Tempat pembuangan sampah"
         options={["Ada", "Tidak ada"]}
         values={["Ada", "Tidak ada"]}
       />
       <MultiOption
         label="P412 - Fasilitas MCK"
+        name="P412 - Fasilitas MCK"
         options={["Sendiri", "Umum"]}
         values={["Sendiri", "Umum"]}
       />
       <MultiOption
         label="P413 - Sumber air mandi terbanyak dari"
+        name="P413 - Sumber air mandi terbanyak dari"
         options={["Ledeng", "Perpipaan berbayar", "air isi ulang", "Kemasan"]}
         values={["Ledeng", "Perpipaan berbayar", "air isi ulang", "Kemasan"]}
       />
       <MultiOption
         label="P414 - Fasilitas buang air besar"
+        name="P414 - Fasilitas buang air besar"
         options={["Jamban Sendiri", "Jamban Bersama"]}
         values={["Jamban Sendiri", "Jamban Bersama"]}
       />
       <MultiOption
         label="P415 - Sumber air minum terbanyak dari"
+        name="P415 - Sumber air minum terbanyak dari"
         options={["Ledeng", "Perpipaan Berbayar", "Air isi ulang", "Kemasan"]}
         values={["Ledeng", "Perpipaan Berbayar", "Air isi ulang", "Kemasan"]}
       />
       <MultiOption
         label="P416 - Tempat pembuangan limbah cair"
+        name="P416 - Tempat pembuangan limbah cair"
         options={["Tangki", "Instalasi pengelolaan limbah"]}
         values={["Tangki", "Instalasi pengelolaan limbah"]}
       />
       <MultiOption
         label="P417 - Rumah berada di bawah SUTET/SUT/SUTTAS"
+        name="P417 - Rumah berada di bawah SUTET/SUT/SUTTAS"
         options={["Ya", "Tidak"]}
         values={["Ya", "Tidak"]}
       />
       <MultiOption
         label="P418 - Rumah di bantaran sungai"
+        name="P418 - Rumah di bantaran sungai"
         options={["Ya", "Tidak"]}
         values={["Ya", "Tidak"]}
       />
       <MultiOption
         label="P419 - Rumah di lereng bukit/gunung"
+        name="P419 - Rumah di lereng bukit/gunung"
         options={["Ya", "Tidak"]}
         values={["Ya", "Tidak"]}
       />
       <MultiOption
         label="P420 - Secara keseluruhan kondisi rumah"
+        name="P420 - Secara keseluruhan kondisi rumah"
         options={["Bersih", "Kumuh"]}
         values={["Bersih", "Kumuh"]}
       />

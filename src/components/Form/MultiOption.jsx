@@ -2,7 +2,13 @@
 
 import React from "react";
 
-const MultiOption = ({ label, options, values }) => {
+const MultiOption = ({ label, options, values, name }) => {
+  const [selectedOption, setSelectedOption] = React.useState("");
+
+  const handleSelectChange = (event) => {
+    setSelectedOption(event.target.value);
+  };
+
   return (
     <div>
       <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white my-2 md:my-4 gap-y-2 md:gap-y-4">
@@ -11,6 +17,9 @@ const MultiOption = ({ label, options, values }) => {
       <select
         className="block w-full p-3 sm:text-md rounded-md bg-slate-200 focus:ring-indigo-500 focus:border-indigo-500 text-black"
         required
+        value={selectedOption}
+        onChange={handleSelectChange}
+        name={name}
       >
         {options.map((option, index) => (
           <option key={index} value={values[index]}>
