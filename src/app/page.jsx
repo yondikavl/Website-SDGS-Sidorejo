@@ -21,9 +21,7 @@ export default function Home() {
             peduli lingkungan, Desa peduli pendidikan, Desa ramah perempuan,
             Desa berjejaring, dan Desa tanggap budaya untuk percepatan
             pencapaian Tujuan Pembangunan Berkelanjutan. Dalam bahasa kerennya
-            Sustainable Development Goals disingkat SDGs. SDGs Desa merupakan
-            role pembangunan berkelanjutan yang akan masuk dalam program
-            prioritas penggunaan Dana Desa Tahun 2021.
+            Sustainable Development Goals disingkat SDGs.
           </p>
         </article>
       </section>
