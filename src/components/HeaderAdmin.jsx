@@ -28,7 +28,7 @@ const Header = () => {
           >
             <Image src="/lamtim.svg" alt="logo-web" width="24" height="24" />
             <span class="self-center text-base md:text-2xl font-bold whitespace-nowrap text-black">
-              Desa Sidorejo
+              Admin Desa Sidorejo
             </span>
           </a>
           <button
@@ -63,43 +63,18 @@ const Header = () => {
             <ul class="flex flex-col md:items-center p-0 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row py-4 md:py-0 md:mt-0 md:border-0 md:bg-white">
               <li>
                 <a
+                  href="/cms"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
+                >
+                  Data Survey
+                </a>
+              </li>
+              <li>
+                <a
                   href="/dashboard"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
-                  aria-current="page"
+                  className="block text-white bg-[#d25e5e] hover:bg-[#68a748] focus:ring-4 focus:outline-none focus:ring-[#FECD01] font-medium rounded-lg text-sm px-5 py-2.5 w-full text-center"
                 >
-                  Beranda
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/tentang"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
-                >
-                  Tentang SDGs Desa
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/kuesioner"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
-                >
-                  Form Survey
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/websitedesa"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
-                >
-                  Profil Desa
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/login"
-                  className="block text-white bg-[#84D25E] hover:bg-[#68a748] focus:ring-4 focus:outline-none focus:ring-[#FECD01] font-medium rounded-lg text-sm px-5 py-2.5 w-full text-center"
-                >
-                  Masuk
+                  Keluar
                 </a>
               </li>
             </ul>

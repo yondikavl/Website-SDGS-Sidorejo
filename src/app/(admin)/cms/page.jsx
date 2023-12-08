@@ -4,7 +4,6 @@ const page = () => {
   return (
     <div className="h-screen bg-white flex justify-center items-center text-center text-black">
       <div>
-        <h1>halo</h1>
         <div className="w-screen h-screen pt-20 md:pt-24 px-2 md:px-40">
           <iframe
             width="100%"
