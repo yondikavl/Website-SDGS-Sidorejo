@@ -3,6 +3,7 @@
 import { useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import ButtonModal from "./ButtonModal";
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -94,13 +95,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <button
-                  type="button"
-                  onClick={toggleModal}
-                  class="text-white bg-[#84D25E] hover:bg-[#6cb14a] w-full focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-4 md:py-2 mt-12 md:mt-0 text-center"
-                >
-                  <a href="login">Masuk</a>
-                </button>
+                <ButtonModal name="Masuk Admin" />
               </li>
             </ul>
           </div>
