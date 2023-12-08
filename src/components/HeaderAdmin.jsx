@@ -2,8 +2,6 @@
 
 import { useState, useRef } from "react";
 import Image from "next/image";
-import Link from "next/link";
-import ButtonModal from "./ButtonModal";
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
