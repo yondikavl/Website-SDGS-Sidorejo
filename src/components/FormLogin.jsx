@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { useRouter } from "next/router";
 
 const FormLogin = () => {
   const [email, setEmail] = useState("");
@@ -31,7 +32,7 @@ const FormLogin = () => {
         id="authentication-modal"
         tabIndex="-1"
         aria-hidden="true"
-        className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full md:inset-0 h-screen max-h-full bg-black bg-opacity-50"
+        className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full md:inset-0 h-screen max-h-full bg-gradient-to-b from-blue-800 to-slate-900 bg-opacity-50"
       >
         <div
           className="relative p-4 w-full max-w-md max-h-screen"

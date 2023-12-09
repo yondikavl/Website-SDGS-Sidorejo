@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = () => {
+const CMS = () => {
   return (
     <div className="h-screen bg-white flex justify-center items-center text-center text-black">
       <div>
@@ -18,4 +18,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default CMS;

@@ -1,7 +1,7 @@
 import FormLogin from "@my/components/FormLogin";
 import React from "react";
 
-const page = () => {
+const Login = () => {
   return (
     <div>
       <FormLogin />
@@ -9,4 +9,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Login;
