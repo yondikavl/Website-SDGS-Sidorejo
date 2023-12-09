@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { useRouter } from "next/router";
 
 const FormLogin = () => {
   const [email, setEmail] = useState("");
